@@ -1,0 +1,178 @@
+.mainheader{
+    display: flex;
+    width: 100%;
+    
+}
+.mainheader input{
+    width: 17rem;
+    height: 3rem;
+    margin-left: 2rem;
+    border-radius: 20rem;
+    border-color: rgb(34, 215, 215);
+    margin-top: 20px;
+   
+    
+}
+
+.hi{
+    display: flex;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 30px;
+    color: rgb(5, 147, 248);
+    padding-top: 22px;
+    text-decoration: wavy;
+}
+
+#icon{
+    position:absolute;
+    left: 13rem;
+    top:44px
+}
+.mainheader p{
+    color: rgb(74, 150, 204);
+    font-size: 27px;
+}
+.mainheader span{
+    color:rgb(3, 170, 203);
+}
+.maindiv{
+    width: 35%;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+    position: relative;
+}
+.list a:hover::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(7, 147, 228);
+    height: 3px;
+    width: 100%;
+    left:0;
+    bottom: -10px;
+
+}
+#icon1{
+    font-size: 20px;
+    color: rgb(4, 201, 211);
+    margin-right: 1em;
+}
+#icon2{
+    font-size: 20px;
+    color:rgb(57, 85, 137);
+    margin-right: 1em;
+}
+#time{
+    font-size:20px ;
+    color: rgb(242, 57, 57);
+    margin-right: 1em;
+}
+#temp{
+    font-size: 20px;
+    color: rgb(0, 164, 223);
+    margin-right: 1em;
+}
+#wind{
+    font-size:20px ;
+    color: rgb(90, 97, 103);
+    margin-right: 1em;
+}
+#isday{
+    font-size: 20px;
+    color: rgba(255, 255, 7, 0.848);
+    margin-right: 1em;
+}
+#time2{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-right: 1em;
+}
+#maxtemp{
+    font-size: 20px;
+    color: red;
+    margin-right: 1em;
+}
+#mintemp{
+    font-size: 20px;
+    color: aquamarine;
+    margin-right: 1em;
+}
+#sunris{
+    font-size: 20px;
+    color: yellow;
+    margin-right: 1em;
+}
+#sunset{
+    font-size: 23px;
+    color: rgb(255, 98, 0);
+    margin-right: 1em;
+}
+#rain{
+    font-size: 20px;
+    color: dimgray;
+    margin-right: 1em;
+}
+#snow{
+    font-size: 20px;
+    color: rgb(245, 245, 245);
+    margin-right: 1em;
+}
+#windm{
+    font-size: 20px;
+    color:mediumslateblue;
+    margin-right: 1em;
+}
+#winmi{
+    font-size: 20px;
+    color:cornflowerblue;
+    margin-right: 1em;
+}
+#hour{
+    font-size: 20px;
+    color:rgb(213, 19, 135);
+    margin-right: 1em;
+}
+#temp3{
+    font-size: 20px;
+    color:navy;
+    margin-right: 1em;
+}
+.container{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.vizu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 120px;
+}
+.vizu h1{
+    font-family:fantasy;
+font-size: 70px;
+color: rgb(39 97 3)
+}
+.vizu p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color:rgb(0,0,0);
+}
+body{
+   background-image: url();
+}
+nav ul li a{
+    color: wheat;
+}
