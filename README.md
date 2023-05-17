@@ -1,1 +1,1 @@
-# wether-web
+# weather-web
